@@ -1,0 +1,20 @@
+{
+  "name": "node0409",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "createFiftyFiles": "node -e 'require(\"./functions\").createFiftyFiles(process.argv[2])'",
+    "deleteFiles": "node -e 'require(\"./functions\").deleteFiles(process.argv[2])'",
+    "appendFiles": "node -e 'require(\"./functions\").appendFiles(process.argv[2])'",
+    "readDirectory": "node -e 'require(\"./functions\").readDirectory(process.argv[2])'"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "say-cheese": "^0.5.5",
+    "yodasay-extended": "^1.0.1"
+  }
+}
